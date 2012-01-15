@@ -54,7 +54,8 @@ dnl     AC_MSG_ERROR([an ORB is required])
 dnl fi
 
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([ Makefile
+                  data_structures/Makefile ])
 
 AC_OUTPUT
 
